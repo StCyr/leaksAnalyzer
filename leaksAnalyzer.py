@@ -21,7 +21,7 @@ class bcolors:
 
 
 def error(err):
-  print 'leakAnalyzer.py [-h] --mode=<command> [--contacts=<filename>] [--leak=<filename>] [--db]'
+  print 'leakAnalyzer.py [-h] --mode=<command> [--contacts=<filename>] [--leak=<filename>] [--modules=<list_of_modules>]'
   print 'where <command> is one of "init" or "analyze"'
   sys.exit(err)
 
